@@ -14,3 +14,19 @@
   --black-var-1: #222;
   --black-var-2: #999;
 }
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.navigation {
+  width: 300px;
+  height: 100%;
+  background: var(--blue);
+}
