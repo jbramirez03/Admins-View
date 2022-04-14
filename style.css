@@ -56,3 +56,16 @@ body {
   margin-bottom: 40px;
   pointer-events: none;
 }
+
+.navigation ul li a {
+  position: relative;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: var(--white);
+  text-align: center;
+}
+
+.navigation ul li:hover a {
+  color: var(--blue);
+}
