@@ -85,5 +85,18 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <script>
+      let links = document.querySelectorAll(".navigation li");
+      function activeLink() {
+        links.forEach((item) => {
+          item.classList.remove("active");
+          this.classList.add("active");
+        });
+      }
+      links.forEach((link) => {
+        link.addEventListener("mouseover", activeLink);
+      });
+    </script>
   </body>
 </html>
