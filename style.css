@@ -35,6 +35,10 @@ body {
   overflow: hidden;
 }
 
+.navigation.active {
+  width: 80px;
+}
+
 .navigation ul {
   position: absolute;
   top: 0;
@@ -53,6 +57,8 @@ body {
 .navigation ul li:hover,
 .navigation ul li.active a {
   background: var(--white);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .navigation ul li:nth-child(1) {
