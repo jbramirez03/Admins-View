@@ -248,3 +248,13 @@ body {
   font-size: 3.5em;
   color: var(--black-var-2);
 }
+
+.cardBox .card:hover {
+  background: var(--blue);
+}
+
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBox,
+.cardBox .card:hover .numbers {
+  color: var(--white);
+}
