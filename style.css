@@ -243,3 +243,8 @@ body {
   font-size: 1.1em;
   margin-top: 5px;
 }
+
+.cardBox .card .iconBox {
+  font-size: 3.5em;
+  color: var(--black-var-2);
+}
