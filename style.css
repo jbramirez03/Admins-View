@@ -406,3 +406,13 @@ body {
   background: var(--blue);
   color: var(--white);
 }
+
+.recentCustomers table tr td {
+  padding: 12px 10px;
+}
+
+.recentCustomers table tr td h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
