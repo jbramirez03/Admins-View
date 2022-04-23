@@ -402,11 +402,6 @@ body {
   object-fit: cover;
 }
 
-.recentCustomers table tr:hover {
-  background: var(--blue);
-  color: var(--white);
-}
-
 .recentCustomers table tr td {
   padding: 12px 10px;
 }
@@ -420,4 +415,13 @@ body {
 .recentCustomers table tr td h4 span {
   font-size: 14px;
   color: var(--black-var-2);
+}
+
+.recentCustomers table tr:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.recentCustomers table tr:hover td h4 span {
+  color: var(--white);
 }
