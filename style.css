@@ -476,23 +476,4 @@ body {
   .user {
     min-width: 40px;
   }
-
-  .navigation {
-    width: 100%;
-    left: -100%;
-    z-index: 1000;
-  }
-
-  .navigation.active {
-    width: 100%;
-    left: 0j;
-  }
-
-  .main.active {
-    left: 80%;
-  }
-
-  .toggle {
-    z-index: 1001;
-  }
 }
