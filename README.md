@@ -8,6 +8,8 @@
 
 ## Summary
 
+A responsive dashboard site that displays ecommerce-like data with each group of data utilizing css grid in order to easily change the layout for different screens. Includes a collapsible navigation side bar with hover effects and icons, each info group has its own hover effect.
+
 ## Table of Contents
 
 - [Preview](#preview)
@@ -22,6 +24,8 @@
 
 ## Preview
 
+![Preview](https://user-images.githubusercontent.com/82244776/164950308-15d52e73-15bf-47eb-9ca7-71f8bc8caf01.gif)
+
 ## Credits
 
 Jason Barrera-Ramirez<br>
@@ -32,6 +36,8 @@ Jason Barrera-Ramirez<br>
 This Project is covered by the [MIT] license
 
 ## Challenges
+
+Creating a responsive layout with css grid and keeping margins proportional with screen width. Creating a collapsible side bar navigation, with hover effects that include a border radius on both top and bottom of any given link selected.
 
 ## Technologies
 
@@ -46,6 +52,8 @@ This Project is covered by the [MIT] license
 
 ## Future Development
 
+Implementing this dashboard into a full-stack application that takes in data from a database like mysql or mongodb instead of rendering static data.
+
 ## How to Contribute
 
 Fork the Repo and make a pull request for code to be reviewed and considered for merge to main branch.
@@ -56,4 +64,4 @@ If there are any questions about the project get in contact with me at my [Email
 
 ## Link
 
-This is the link to the live site on [Github]().
+This is the link to the live site on [Github](https://jbramirez03.github.io/Admins-View/).
